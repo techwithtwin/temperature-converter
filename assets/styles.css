@@ -1,0 +1,60 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./images/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+.attr {
+  position: absolute;
+  color: white;
+  bottom: 4%;
+  right: 4%;
+}
+a {
+  color: aquamarine;
+}
+.card {
+  padding: 1.5rem 4rem 3rem 4rem;
+  background-color: rgba(0, 0, 0, 0.401);
+  background-blend-mode: multiply;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 10px;
+  border: 5px solid transparent;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.4rem;
+}
+input {
+  padding: 0.5rem;
+}
+
+@media (max-width: 468px) {
+  .card {
+    padding: 1rem 2rem;
+    margin: 0 0.4rem;
+  }
+}
